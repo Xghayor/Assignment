@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app-container{
+  display: flex;
+  background-color: rgb(235, 235, 7);
+}

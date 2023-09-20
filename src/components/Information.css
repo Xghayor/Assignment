@@ -1,0 +1,43 @@
+.info-box {
+    width: 300px; 
+    margin: 20px; 
+  }
+  
+  .box-name {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(128, 0, 0, 0.632);
+    margin-bottom: 10px;
+    
+  }
+  
+  .box-name button {
+    background-color: #dd8e04; 
+    color: #fff; 
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px; 
+  }
+ 
+  .info-customer {
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    border:1px solid maroon;
+  }
+  
+  
+  .info-customer p {
+    margin: 0; 
+    padding: 5px 0; 
+    font-weight: bold;
+    font-size: 12px;
+
+  }
+  
+  .date-box{
+    font-weight: normal !important;
+  }
+
+  .red-p{
+    color: red;
+  }

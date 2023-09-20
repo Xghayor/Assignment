@@ -1,0 +1,285 @@
+/* first-inputs */
+form{
+    margin-right: 10px;
+}
+.form-title {
+    text-align: center;
+    margin-top: 5px;
+    color: rgba(128, 0, 0, 0.498);
+    font-weight: bold;
+}
+
+.first-inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.inputs-div {
+    margin-bottom: 5px;
+}
+
+label {
+    display: block;
+}
+
+.inputs-div input{
+    width: 500px;
+}
+
+  .second-inputs {
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  
+  .second-inputs div {
+    flex-basis: calc(6.28%);
+    margin-bottom: 5px;
+  }
+  .second-inputs div:first-child {
+    flex-basis: 12%; 
+}
+
+
+  .second-inputs label {
+    display: block;
+  }
+  
+  .second-inputs input[type="text"],
+  .second-inputs select,
+  .second-inputs input[type="checkbox"] {
+    width: 90%;
+    box-sizing: border-box;
+    padding: 3px 5px;
+  }
+  
+  .second-inputs input[type="checkbox"] {
+    width: 50px; 
+  }
+  
+  .yellow{
+    background-color: rgb(235, 235, 7);
+    border: 1px solid grey;
+  }
+  
+ 
+  
+  /* second box */
+  
+  .desc-div {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+}
+
+.label-textarea {
+    display: flex;
+    gap: 10px;
+    align-items: stretch; 
+}
+
+label {
+    order: 1;
+}
+
+textarea {
+    order: 2;
+    width: 100%;
+    height: 40px;
+}
+
+.button-div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 10px; 
+}
+
+button {
+    margin-left: 10px;
+    background-color: rgb(246, 141, 20);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+  
+/* first table */
+
+.table-one {
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .one-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(128, 0, 0, 0.589);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+  }
+
+  th, td {
+    border: 1px solid grey;
+    padding: 5px;
+    background-color: white;
+    font-size: 13px;
+  }
+
+  th {
+    background-color: white;
+    font-size: 13px;
+    color: rgba(5, 4, 4, 0.562);
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+.table-div{
+    background-color: white;
+    padding-bottom: 50px;
+    border-bottom: 1px solid maroon;
+    border-left: 0.5px solid rgba(128, 0, 0, 0.484);
+    border-right: 0.5px solid rgba(128, 0, 0, 0.413);
+}
+
+  /* middle table */
+  .custom-select {
+    position: relative;
+    display: inline-block;
+    background-color: white;
+  }
+  
+  .select-box {
+    padding: 5px;
+    width: 300px;
+  }
+  
+  .arrow-up,
+.arrow-down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 3px; 
+  cursor: pointer;
+  border: none;
+  background: none;
+  border: 1px solid rgb(30, 28, 28);
+  background-color: rgb(212, 206, 206);
+  font-size: 5px;
+  color: black;
+  
+
+}
+
+.arrow-up {
+  top: -2px;
+}
+
+.arrow-down {
+  top: 10px;
+  color: black;
+  background-color: rgb(165, 161, 161);
+}
+
+  
+  .middle-title {
+    text-align: left;
+    font-size: 18px;
+    color: rgba(154, 22, 22, 0.664);
+    margin-bottom: 10px;
+    margin-left: 200px;
+  }
+  .type{
+    background-color: white;
+  }
+  .table-box {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    border: 1px solid maroon;
+    margin-bottom: 5px;
+  }
+
+  .montant{
+    background-color: white;
+  }
+  
+  .table-box > div {
+    flex: 1;
+    text-align: center;
+    border: 1px solid #000;
+  }
+
+  .button-box{
+    margin-left: 560px;
+  }
+  .btn-container{
+    display: flex;
+    gap: 20px;
+  }
+  .image-box {
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    border: 2px solid maroon;
+  }
+  
+
+.last-table caption{
+   font-size: 18px;
+   font-weight: bold;
+    color: rgba(128, 0, 0, 0.559);
+   margin-bottom: 10px;
+   
+}
+
+
+.last-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 10px;
+  }
+  
+  .left {
+    flex-grow: 1;
+    margin-right: 250px;
+  }
+  
+  .mid-btns {
+    flex-grow: 2;
+    margin-right: 250px;
+  }
+  
+  .right {
+    flex-grow: 1;
+    
+  }
+  
+
+.two-button{
+    margin: 15px 0px 10px 250px;
+}
+
+.three-buttons{
+    margin-left: 180px;
+}
+
+.check-last{
+    color: maroon;
+}
+
+.hard-btn{
+    background-color: rgba(83, 31, 31, 0.753);
+}
